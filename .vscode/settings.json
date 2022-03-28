@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "eslint.workingDirectories": ["pdv"],
+  "eslint.nodePath": "pdv/.yarn/sdks",
+  "typescript.tsdk": "pdv/.yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "python.pythonPath": "pyapi\\env\\Scripts\\python.exe"
+}
